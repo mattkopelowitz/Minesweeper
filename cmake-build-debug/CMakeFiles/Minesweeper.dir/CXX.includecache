@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mattk/CLionProjects/Minesweeper/Board.h
+iostream
+-
+vector
+-
+SFML/Graphics/Texture.hpp
+-
+SFML/Graphics/Sprite.hpp
+-
+map
+-
+fstream
+-
+
+C:/Users/mattk/CLionProjects/Minesweeper/main.cpp
+iostream
+-
+fstream
+-
+Board.h
+C:/Users/mattk/CLionProjects/Minesweeper/Board.h
+SFML/Graphics.hpp
+-
+vector
+-
+ctime
+-
+
